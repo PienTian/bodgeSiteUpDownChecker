@@ -14,7 +14,7 @@ open power shell
 
 `>.\bodgeSiteUpDownChecker.ps1 example.com`
 
-## powershell script running issue
+## If you have powershell script running issue
 As admin, run `Set-ExecutionPolicy RemoteSigned`
 and
 
