@@ -21,4 +21,4 @@ and
 パワーシェルの実行に問題があった場合は上記のコマンドを管理者として実行して下さい
 
 
-### I may delete this repository someday
+
