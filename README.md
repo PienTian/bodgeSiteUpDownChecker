@@ -9,14 +9,16 @@ Usually, if a server is down, the result showed up slow.
 
 ## How to use
 open power shell
+
 パワーシェルを開いて以下のように使います
+
 `>.\bodgeSiteUpDownChecker.ps1 example.com`
 
 ## powershell script running issue
 As admin, run `Set-ExecutionPolicy RemoteSigned`
 and
 
-'Get-ChildItem -Path C:\ -Name WindowsSetup.ps1 -Recurse | ForEach-Object {"C:\$_"} | Get-Item | Unblock-File'
+`Get-ChildItem -Path C:\ -Name bodgeSiteUpDownChecker.ps1 -Recurse | ForEach-Object {"C:\$_"} | Get-Item | Unblock-File`
 
 パワーシェルの実行に問題があった場合は上記のコマンドを管理者として実行して下さい
 
