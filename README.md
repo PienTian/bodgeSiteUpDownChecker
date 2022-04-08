@@ -19,3 +19,6 @@ and
 'Get-ChildItem -Path C:\ -Name WindowsSetup.ps1 -Recurse | ForEach-Object {"C:\$_"} | Get-Item | Unblock-File'
 
 パワーシェルの実行に問題があった場合は上記のコマンドを管理者として実行して下さい
+
+
+### I may delete this repository someday
