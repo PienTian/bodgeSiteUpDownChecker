@@ -19,7 +19,7 @@ Write-Host $string
 }
 Write-Host ""
 Write-Host ""
-Write-Host "unreachable for 19130days mean you probably typed wrong domain"
+Write-Host "##(If the program shows unreachable for 19130days, it mean you probably typed wrong domain)##"
 Write-Host ""
 
 if(!$args){
